@@ -15,13 +15,19 @@ Co-authored by Abhishek Bhemisetty and Terris Linenbach at [Peer AI](https://get
 
 ## Features
 
-- Switch the page size and orientation to landscape (currently US 11x8.5" only -- apologies to everyone outside the US)
-- Resize all table cells to fit the page as best as possible (there are currently no ways to control this, if it works for you it's a feature, if not, file an issue)
-- Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) specified in the DOCX reference document (as long as its name doesn't contain a space) for all cells in the table
+### Landscape
 
-## Not Currently Features
+Switch the page size and orientation to landscape (currently US 11x8.5" only -- apologies to everyone outside the US)
 
-PR are always welcome.
+### Wide Tables
+
+- Resize all table cells to fit the page as best as possible
+  - There are currently no ways to customize the behavior -- if it works for you it's a feature, if not, file an issue
+- Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) specified in the DOCX reference document (as long as its name doesn't contain a space) for all cells
+
+## Not Yet Features
+
+PR are always welcome!
 
 - Specify the table's style in addition to cells' character style
 
