@@ -25,7 +25,7 @@ PR are always welcome.
 
 - Tested with Pandoc 2.2 and 3.3 and compatible versions of `pandoc-crossref`
 - Probably works with additional versions but you're on your own. Please let us know via issues and we will update the README.
-- Tested for converting from markdown to docx. Other 'from' formats such as LaTeX are likely to work.
+- Tested for converting from markdown to docx. Other source formats such as LaTeX are likely to work.
 
 ## Usage
 
