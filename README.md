@@ -22,7 +22,7 @@ Switch the page size and orientation to landscape (currently US 11x8.5" only -- 
 ### Wide Tables
 
 - Resize all table cells to fit the page as best as possible
-  - There are currently no ways to customize the behavior -- if it works for you it's a feature, if not, file an issue
+  - There are currently no ways to customize the behavior. If it works for you it's a feature. If not, create an issue.
 - Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) specified in the docx reference document (as long as its name doesn't contain a space) for all cells
 
 ## Not Yet Features
