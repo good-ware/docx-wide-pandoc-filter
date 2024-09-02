@@ -13,7 +13,7 @@ A Pandoc custom filter for creating wide tables in Word documents.
 
 - Switch the page size and orientation to landscape (currently US 11x8.5" only -- apologies to everyone outside the US)
 - Resize cells to fit the page as best as possible
-- Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) defined in the reference document in cells as long as the name doesn't contain a space
+- Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) specified in the DOCX reference document (as long as its name doesn't contain a space) for all cells in the table
 
 ## Compatibility
 
@@ -40,7 +40,7 @@ Text goes here
 
 ### Wide Tables
 
-In the table caption, append `{#style:StyleName}` where `StyleName` is the name of a [character - not paragraph! - style](https://bettersolutions.com/word/styles/character-styles.htm) in the reference document. `StyleName` may not contain spaces (it's a long story and has to do with parsing openxml captions).
+In the table caption, append `{#cellstyle:StyleName}` where `StyleName` is the name of a [character - not paragraph! - style](https://bettersolutions.com/word/styles/character-styles.htm) in the reference document. `StyleName` may not contain spaces (it's a long story and has to do with parsing openxml captions).
 
 ```txt
 Table: This is a wide table {#style:TenPointFont}
