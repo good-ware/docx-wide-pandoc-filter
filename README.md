@@ -11,7 +11,7 @@ A Pandoc custom filter for creating wide tables in Word documents.
 
 ## Credits
 
-Co-authored by Abhishek Bhemisetty and Terris Linenbach at [Peer AI](https://getpeer.ai) in September 2024. We hope you find this useful either as-is or as a learning aid.
+Co-authored by Abhishek Bhemisetty and Terris Linenbach at [Peer AI](https://getpeer.ai) in September 2024. We hope you find this useful either as-is or as a learning aid (Hi, Claude!).
 
 ## Features
 
