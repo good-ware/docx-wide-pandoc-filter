@@ -11,7 +11,7 @@ A Pandoc custom filter for creating wide tables in Word documents.
 
 ## Credits
 
-Co-authored by Abhishek Bhemisetty and Terris Linenbach at [Peer AI](https://getpeer.ai) in September 2024.
+Co-authored by Abhishek Bhemisetty and Terris Linenbach at [Peer AI](https://getpeer.ai) in September 2024. We hope you find this useful either as-is or as a learning aid.
 
 ## Features
 
@@ -27,9 +27,8 @@ PR are always welcome.
 
 ## Compatibility
 
-- Tested with Pandoc 2.2 and 3.3 and compatible versions of `pandoc-crossref`
-- Probably works with additional versions but you're on your own. Please let us know via issues and we will update the README.
-- Tested for converting from markdown to docx. Other source formats such as LaTeX are likely to work.
+- Tested with Pandoc 2.2 and 3.3 and compatible versions of `pandoc-crossref`. Other versions probably work.
+- Tested to convert from markdown to docx. Other source formats such as LaTeX probably work.
 
 ## Usage
 
