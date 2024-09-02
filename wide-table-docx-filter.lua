@@ -110,10 +110,10 @@ end
 function Table(el)
     if FORMAT:match("docx") then
         local caption_text = pandoc.utils.stringify(el.caption.long)
-        local style = caption_text:match("{#style:(.-)}")
+        local style = caption_text:match("{#cellstyle:(.-)}")
 
         if style then
-            replaceCaption(el.caption.long, "%s*{#style:.-}", "")
+            replaceCaption(el.caption.long, "%s*{#cellstyle:.-}", "")
             setTableColspecs(el) -- to set the table column width
 
             -- Process the table head
