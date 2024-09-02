@@ -11,7 +11,7 @@ A Pandoc custom filter for creating wide tables in Word documents.
 
 ## Features
 
-- Switch the page size and orientation to landscape (currently US 11x8.5" only -- sorry to the rest of the world)
+- Switch the page size and orientation to landscape (currently US 11x8.5" only -- apologies to everyone outside the US)
 - Resize cells to fit the page as best as possible
 - Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) defined in the reference document in cells as long as the name doesn't contain a space
 
