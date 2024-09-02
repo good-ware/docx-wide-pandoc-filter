@@ -41,7 +41,7 @@ PR are always welcome!
 1. Download `wide-table-docx-filter.lua`
 2. Specify the path to `wide-table-docx-filter.lua` when running Pandoc
 
-### Switching to Landscape
+### Landscape Pages
 
 Enclose content with the `landscape` class:
 
@@ -62,7 +62,7 @@ Table: This is a wide table {#cellstyle:TenPointFont}
 | 1 | 2 | 3 |
 ```
 
-## Example: Landscape and Wide Table
+## Example: Wide Table on Landscape Page
 
 Better together!
 
