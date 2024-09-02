@@ -17,7 +17,7 @@ Co-authored by Abhishek Bhemisetty and Terris Linenbach at [Peer AI](https://get
 
 ### Landscape
 
-Switch the page size and orientation to landscape (currently US 11x8.5" only -- apologies to everyone outside the US)
+Switch the page size and orientation to landscape (currently US 11x8.5" only -- apologies to everyone outside the US).
 
 ### Wide Tables
 
@@ -41,9 +41,7 @@ PR are always welcome!
 1. Download `wide-table-docx-filter.lua`
 2. Specify the path to `wide-table-docx-filter.lua` when running Pandoc
 
-### Switching to Landscape
-
-Wide tables probably require landscape pages. Unfortunately, only landscape is provided. Other sizes such as A4 could be added. Please submit an issue if desired.
+### Switching to Landscape Orientation
 
 Enclose content with the `landscape` class:
 
