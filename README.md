@@ -5,7 +5,7 @@ A Pandoc custom filter for creating wide tables in Word documents.
 ## Code of Conduct
 
 - Harassment of any of our users or associates is not tolerated
-- This is a open source free as in beer project. If you find a bug or want a feature, create an issue and be patient.
+- This is a open source, free as in beer MIT licensed project. If you find a bug or want a feature, create an issue and be patient.
 - PRs are always welcomed. Please test your changes.
 - Be nice
 
