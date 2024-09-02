@@ -15,14 +15,14 @@ Co-authored by Abhishek Bhemisetty September 2024. We hope you find this useful 
 
 ## Features
 
-### Landscape
+### Landscape Orientation
 
-Switch the page size and orientation to landscape (currently US 11x8.5" only -- apologies to everyone outside the US).
+Switch the page size and orientation to landscape. Currently US 11x8.5" only -- apologies to everyone outside the US.
 
 ### Wide Tables
 
 - Resize all table cells to fit the page as best as possible
-  - There are currently no ways to customize the behavior. If it works for you it's a feature. If not, create an issue.
+  - There is currently no way to customize the behavior. If it works for you it's a feature. If not, create an issue.
 - Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) specified in the docx reference document (as long as its name doesn't contain a space) for all cells
 
 ## Not Yet Features
