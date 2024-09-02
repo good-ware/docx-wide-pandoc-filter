@@ -9,6 +9,10 @@ A Pandoc custom filter for creating wide tables in Word documents.
 - This is a open source, free as in beer, MIT-licensed project. If you find a bug or want a feature, create an issue and be patient.
 - PRs are appreciated. Please test your changes.
 
+## Credits
+
+Co-authored by Terris Linenbach and Abhishek Bhemisetty at [Peer AI](https://getpeer.ai) in September 2024.
+
 ## Features
 
 - Switch the page size and orientation to landscape (currently US 11x8.5" only -- apologies to everyone outside the US)
