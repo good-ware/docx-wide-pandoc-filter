@@ -56,7 +56,7 @@ Text goes here
 In the table caption, append `{#cellstyle:StyleName}` where `StyleName` is the name of a [character - not paragraph! - style](https://bettersolutions.com/word/styles/character-styles.htm) in the docx reference document. `StyleName` may not contain spaces (it's a long story and has to do with parsing openxml captions).
 
 ```txt
-Table: This is a wide table {#style:TenPointFont}
+Table: This is a wide table {#cellstyle:TenPointFont}
 
 | Ready | Set | Go |
 | 1 | 2 | 3 |
@@ -68,7 +68,7 @@ Better together!
 
 ```txt
 :::{.landscape}
-Table: This is a wide table {#style:TenPointFont}
+Table: This is a wide table {#cellstyle:TenPointFont}
 
 | Ready | Set | Go |
 | 1 | 2 | 3 |
