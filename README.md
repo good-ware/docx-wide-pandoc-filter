@@ -45,4 +45,4 @@ In the table caption, append `{#style:StyleName}` where `StyleName` is the name 
 ```txt
 Table: This is a wide table {#style:TenPointFont}
 ```
-txt
+
