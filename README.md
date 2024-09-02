@@ -1,4 +1,4 @@
-# docx-wide-table-pandoc-filter
+# docx-wide-pandoc-filter
 
 A Pandoc custom filter (in Lua) for creating wide content in Word documents.
 
