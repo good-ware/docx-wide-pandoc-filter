@@ -23,7 +23,7 @@ Switch the page size and orientation to landscape (currently US 11x8.5" only -- 
 
 - Resize all table cells to fit the page as best as possible
   - There are currently no ways to customize the behavior -- if it works for you it's a feature, if not, file an issue
-- Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) specified in the DOCX reference document (as long as its name doesn't contain a space) for all cells
+- Use any [character style](https://bettersolutions.com/word/styles/character-styles.htm) specified in the docx reference document (as long as its name doesn't contain a space) for all cells
 
 ## Not Yet Features
 
@@ -53,7 +53,7 @@ Text goes here
 
 ### Wide Tables
 
-In the table caption, append `{#cellstyle:StyleName}` where `StyleName` is the name of a [character - not paragraph! - style](https://bettersolutions.com/word/styles/character-styles.htm) in the reference document. `StyleName` may not contain spaces (it's a long story and has to do with parsing openxml captions).
+In the table caption, append `{#cellstyle:StyleName}` where `StyleName` is the name of a [character - not paragraph! - style](https://bettersolutions.com/word/styles/character-styles.htm) in the docx reference document. `StyleName` may not contain spaces (it's a long story and has to do with parsing openxml captions).
 
 ```txt
 Table: This is a wide table {#style:TenPointFont}
