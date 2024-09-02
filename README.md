@@ -47,7 +47,7 @@ Enclose content with the `landscape` class:
 
 ```txt
 :::{.landscape}
-Text goes here
+Content goes here
 :::
 ```
 
