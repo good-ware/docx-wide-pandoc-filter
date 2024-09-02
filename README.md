@@ -57,5 +57,8 @@ In the table caption, append `{#cellstyle:StyleName}` where `StyleName` is the n
 
 ```txt
 Table: This is a wide table {#style:TenPointFont}
+
+| Ready | Set | Go |
+| 1 | 2 | 3 |
 ```
 
