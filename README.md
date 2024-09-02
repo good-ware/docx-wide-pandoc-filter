@@ -1,6 +1,6 @@
 # docx-wide-table-pandoc-filter
 
-A Pandoc custom filter for creating wide tables in Word documents.
+A Pandoc custom filter (in Lua) for creating wide content in Word documents.
 
 ## Code of Conduct
 
