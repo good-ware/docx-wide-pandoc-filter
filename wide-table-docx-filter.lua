@@ -137,6 +137,7 @@ function Table(el)
     return el
 end
 
+-- Check for landscape
 function Div(el)
     if FORMAT:match("docx") and el.classes:includes("landscape") then
         table.insert(el.content, 1, pandoc.RawBlock("openxml",
