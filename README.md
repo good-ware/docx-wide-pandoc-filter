@@ -4,7 +4,7 @@ A Pandoc custom filter (in Lua) for creating wide content in Word documents.
 
 ## Code of Conduct
 
-- Harassment of our associates is not tolerated
+- Harassment of any associate is not tolerated
 - This is an open, free as in beer, MIT-licensed project. If you find a bug or want a feature, create an issue and be patient.
 - PRs are appreciated. Please test your changes.
 
