@@ -1,6 +1,6 @@
 # docx-wide-pandoc-filter
 
-A Pandoc custom filter (in Lua) for creating wide content in Word documents.
+A Pandoc custom filter (written in Lua) for creating wide content in Word documents.
 
 ## Code of Conduct
 
