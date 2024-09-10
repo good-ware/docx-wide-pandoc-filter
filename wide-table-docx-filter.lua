@@ -1,18 +1,3 @@
-function setTableColspecs(el)
-    -- Determine the number of columns
-    local num_columns = #el.colspecs
-
-    -- Set equal width for each column (relative width)
-    local custom_width = 1.0 / num_columns -- Distribute equally
-
-    -- Apply custom widths and alignment (e.g., centered alignment)
-    for i = 1, num_columns do
-        el.colspecs[i] = {pandoc.AlignLeft, el.colspecs[i].width}
-    end
-
-    return el
-end
-
 function calculateSpans(charCount, threshold)
     -- Determines the span based on character count
     -- Increase `threshold` if you want larger content to span more cells
@@ -114,7 +99,6 @@ function Table(el)
 
         if style then
             replaceCaption(el.caption.long, "%s*{#cellstyle:.-}", "")
-            setTableColspecs(el) -- to set the table column width
 
             -- Process the table head
             if el.head and el.head.rows and type(el.head.rows) == "table" then
